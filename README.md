@@ -18,7 +18,7 @@ $$\frac{dy}{dx} = y-x^{3}$$
 
 
 ## Result
-![image](https://user-images.githubusercontent.com/45511879/220757544-ec5c6975-319e-4ad6-adc7-10f06b385abf.png)
+![image](https://user-images.githubusercontent.com/45511879/220762145-102f81c4-2b24-44b3-a4cf-af37cd416b96.png)
 </br>
 Red curve - Real values </br>
 Blue curve - Eulier values </br>
