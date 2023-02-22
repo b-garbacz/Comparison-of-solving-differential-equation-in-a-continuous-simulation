@@ -15,7 +15,7 @@ class Main {
         menager.setEndSimTime(40);
         menager.startSimulation();
 
-        Diagram diagramObj = new Diagram(Diagram.DiagramType.TIME, "Wykres przedstawiajacy zmiany stanów zaimplementowanych metod");
+        Diagram diagramObj = new Diagram(Diagram.DiagramType.TIME, "Graph showing state changes of implemented methods");
         diagramObj.add(val.stateRealValue, java.awt.Color.RED);
         diagramObj.add(val.stateEulerValue, java.awt.Color.BLUE);
         diagramObj.add(val.stateRK4Value, java.awt.Color.BLACK);

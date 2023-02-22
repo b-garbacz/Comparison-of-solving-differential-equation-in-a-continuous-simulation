@@ -3,6 +3,7 @@ package sim.core;
 public class RK4Value extends SimStep {
     private double xi = 7;
     private final Value value;
+
     public RK4Value(Manager mngr, Value vvalue) {
         super(mngr);
         this.value = vvalue;
@@ -13,11 +14,11 @@ public class RK4Value extends SimStep {
     }
 
     public double solve() {
-        // Tutaj czemuś działa...
-        if( this.simTime()== this.getSimMngr().getStartSimTime()){
+
+        if (this.simTime() == this.getSimMngr().getStartSimTime()) {
             return this.xi;
         }
-        //podobnie
+
         double deltat;
         double ti;
         double k1;
@@ -34,7 +35,7 @@ public class RK4Value extends SimStep {
         k2 = this.eq(this.xi + k1 * (deltat / 2), ti + (deltat / 2));
         k3 = this.eq(this.xi + k2 * (deltat / 2), ti + (deltat / 2));
         k4 = this.eq(this.xi + k3 * (deltat), ti + deltat);
-        xip1 = this.xi + (deltat/ 6) * (k1 + 2 * k2 + 2 * k3 + k4);
+        xip1 = this.xi + (deltat / 6) * (k1 + 2 * k2 + 2 * k3 + k4);
 
         this.xi = xip1;
         return xip1;

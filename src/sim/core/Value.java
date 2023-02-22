@@ -2,7 +2,7 @@ package sim.core;
 
 import sim.monitors.MonitoredVar;
 
-public class Value  {
+public class Value {
     public MonitoredVar stateRealValue = new MonitoredVar();
     public MonitoredVar stateEulerValue = new MonitoredVar();
     public MonitoredVar stateRK4Value = new MonitoredVar();

@@ -10,7 +10,7 @@ public class EulerValue extends SimStep {
     }
 
 
-    // dy/dx = y-x^3,c_1=1 because y(0)=1
+    // dy/dx = y-x^3
     public double eq(double y, double x) {
         return y - Math.pow(x, 3);
     }
