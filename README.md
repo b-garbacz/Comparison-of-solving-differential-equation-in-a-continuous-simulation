@@ -1,4 +1,4 @@
-# Comparison-of-solving-differential-equations-in-a-continuous-simulation
+# Comparison of solving differential equations in a continuous simulation
 ## Introduction
 
 In a quasi-continuous simulation, numerical methods for solving differential equations are used. So the chosen methods are:
