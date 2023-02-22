@@ -3,7 +3,7 @@
 
 In a quasi-continuous simulation, numerical methods for solving differential equations are used. So the chosen methods are:
 
-First Header  | Second Header
+Algorithm  | Description
 ------------- | -------------
 Euler method | one-step method
 Runge-Kutta method  | multi-step method
